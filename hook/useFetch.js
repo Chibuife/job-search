@@ -1,7 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { RAPID_API_KEY } from '@env'
-console.log(RAPID_API_KEY)
 const useFetch = (endpoint, query) => {
     const [data, setData] = useState([])
     const [isLoading, setIsLoading] = useState(false)
@@ -32,7 +31,7 @@ const useFetch = (endpoint, query) => {
         catch (error) {
             console.log(error)
             setError(error)
-            alert('There ia an error')
+            alert('There ia an error. Due to many req Jsearch has limited many api call for free req')
         }
     }
 

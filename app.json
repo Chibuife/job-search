@@ -5,6 +5,12 @@
       "bundler": "metro"
     },
     "name": "react-native-jobs",
-    "slug": "react-native-jobs"
+    "slug": "chibuife",
+    "extra": {
+      "eas": {
+        "projectId": "93778cef-adc8-49bc-9529-106256d59c31"
+      }
+    },
+    "owner": "chibuife"
   }
 }
